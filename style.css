@@ -148,42 +148,6 @@ footer {
     font-size: 15px;
 }
 
-/* =========================================
-   FACTS PAGE STYLES
-   ========================================= */
-
-.facts-header {
-    text-align: center;
-    padding: 60px 0 20px;
-}
-
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 40px 0;
-}
-
-.fact-card {
-    width: 480px; /* Two cards per row in 1100px container */
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    border: 1px solid #eeeeee;
-    border-left: 6px solid #ff6b6b; /* Accent stripe */
-    transition: 0.3s;
-}
-
-.fact-card:hover {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-}
-
-.fact-card h3 {
-    margin: 0 0 15px 0;
-    color: #ff6b6b;
-    font-size: 20px;
-}
 
 /* =========================================
    RESPONSIVENESS (Simple stack for mobile)
