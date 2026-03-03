@@ -235,6 +235,41 @@ footer {
     line-height: 1.6;
 }
 
+
+
+/* Adopt a Cat Section */
+.adopt-section {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 10px;
+    border: 1px solid #eeeeee;
+    border-left: 5px solid #ff6b6b;
+    margin: 40px 0 20px;
+    text-align: center;
+}
+
+.adopt-section p {
+    margin: 0 0 18px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.adopt-link {
+    display: inline-block;
+    padding: 12px 26px;
+    background: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.adopt-link:hover {
+    background: #ff4a4a;
+}
+
 @media (max-width: 1100px) {
     .container { width: 90%; }
     .features-grid { flex-direction: column; align-items: center; }
