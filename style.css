@@ -14,29 +14,27 @@ body {
 }
 
 nav {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 5%;
+    padding: 20px 5%;
     background: #ffffff;
-    border-bottom: 1px solid #e8e8e8;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+    border-bottom: 2px solid #ff6b6b;
 }
 
 nav a {
     text-decoration: none;
-    color: #444;
-    margin-left: 30px;
-    font-size: 15px;
-    font-weight: 600;
-    transition: color 0.2s;
+    color: #333333;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
 }
 
 nav a:hover { color: #ff6b6b; }
 
-.logo { margin-left: 0; font-size: 22px; color: #ff6b6b; font-weight: 700; }
+.logo { margin-left: 0; font-size: 24px; color: #ff6b6b; text-decoration: none; }
 
 footer {
     background: #111;
