@@ -235,7 +235,10 @@ footer {
     line-height: 1.6;
 }
 
-
+.home-adopt{
+    padding: 50px;
+    text-align: center;
+}
 /* Adopt a Cat Section */
 .adopt-section {
     background: #ffffff;
